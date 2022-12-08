@@ -1,6 +1,8 @@
 #include<stdio.h>
 
-/* script to print to std output */
+/*
+* script to print to std output
+*/
 
 int main(void)
 {
