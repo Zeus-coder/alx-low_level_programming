@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-/*
+/**
 * script to print to std output
 */
 
