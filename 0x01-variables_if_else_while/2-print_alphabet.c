@@ -12,6 +12,7 @@
 	while (a <= z)
 		putchar(a++);
 
+	putchar(' ');
 
 	return (0);
 
