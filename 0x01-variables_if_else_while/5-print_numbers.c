@@ -7,8 +7,8 @@
 
 	a = 0;
 
-	while(a < 10)
-		printf("%d", a++);
+	while (a < 10)
+		printf("%d ", a++);
 	return (0);
 
 
