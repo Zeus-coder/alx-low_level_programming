@@ -8,10 +8,11 @@
 	a = 'a';
 	z = 'z';
 
+	putchar(' ');
+
 	while (a <= z)
 		putchar(a++);
 
-	putchar(' ');
 
 	return (0);
 
