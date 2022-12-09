@@ -4,10 +4,13 @@
 {
 	char a;
 	char z;
+
 	a = 'a';
 	z = 'z';
+
 	while (a <= z)
 		putchar(a++);
+
 	putchar(' ');
 
 	return (0);
