@@ -8,7 +8,6 @@
 	a = 'a';
 	z = 'z';
 
-	putchar(' ');
 
 	while (a <= z)
 		putchar(a++);
