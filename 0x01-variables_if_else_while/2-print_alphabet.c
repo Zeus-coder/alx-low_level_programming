@@ -6,7 +6,10 @@
 	char z;
 	a = 'a';
 	z = 'z';
-	while(a <= z)
+	while (a <= z)
 		putchar(a++);
+	putchar(' ');
+
 	return (0);
+
 }
