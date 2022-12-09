@@ -12,12 +12,12 @@
 	A = 'A';
 	Z = 'Z';
 
-	while (a <= z )
+	while (a <= z)
 		putchar(a++);
 	while (A <= Z)
 		putchar(A++);
 
-	putchar(' ');
+	putchar('\n');
 
 	return (0);
 
