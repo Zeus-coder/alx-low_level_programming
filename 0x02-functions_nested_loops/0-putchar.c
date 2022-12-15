@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char *h = "Pelumi\n";
+	char *h = "_putchar\n";
 
 	while (*h)
 	{
