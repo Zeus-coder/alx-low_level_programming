@@ -3,8 +3,8 @@
 #include <string.h>
 
 /**
-*_puts - my func to print str to stdout in reverse
-*@str: para of func
+*print_rev - my func to print str to stdout in reverse
+*@s: para of func
 *
 * printed string to output in reverse
 */
