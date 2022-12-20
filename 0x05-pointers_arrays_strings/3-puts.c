@@ -5,7 +5,7 @@
 *_puts: my func
 *@str: para of func
 *
-*Return: printed string to output
+* printed string to output
 */
 
 void _puts(char *str)
