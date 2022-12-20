@@ -18,7 +18,7 @@ void print_rev(char *s)
 
 	l = strlen(s);
 
-	for (i = (l-1); i >= 0; i--)
+	for (i = (l - 1); i >= 0; i--)
 	{
 
 		temp = s[i];
