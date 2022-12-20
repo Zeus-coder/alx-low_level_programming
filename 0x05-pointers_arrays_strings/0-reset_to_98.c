@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
-*void reset_to_98 -function that updates a pointer value
+*reset_to_98 -function that updates a pointer value
 *@int *n
+*@n: paramentr of may func
 *
-*function that takes a pointer to an int as parameter and updates the value it points to to 98.
+*function that updates a pointer value
 */
 void reset_to_98(int *n)
 {
