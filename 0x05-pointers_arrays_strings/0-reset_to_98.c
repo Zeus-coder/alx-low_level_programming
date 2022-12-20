@@ -9,7 +9,7 @@
 
 */
 
-void reset_to_98(int *n)
+/*  function that derefrence */void reset_to_98(int *n)/* the func takes in an int pointer*/
 {
 	*n = 98;
 }
