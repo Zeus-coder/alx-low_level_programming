@@ -3,8 +3,9 @@
 
 /**
 *_strlen - func that returns len of str
-*@l: len of string
 *@s: parameter of func
+*
+*Return: len of str
 *
 *a function that returns the len of str
 */
