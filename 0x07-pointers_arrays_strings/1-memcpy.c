@@ -3,30 +3,20 @@
 #include <stdio.h>
 
 /**
-*
-**_memcpy - function that copy the memeory from a src to dest
-*@dest: dest arg
-*@src: src arg
-*@n: nth value to which we cpy src to dest
-*
-*Return: memroy to dest
-*
-*/
-
-
+ * _memcpy - fills memory with another buffer.
+ * @dest: source string
+ * @src: string for filling
+ * @n: lenght of buffer
+ * Return: new string.
+ */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
+	unsigned int i = 0;
 
-	unsigned int i;
-
-
-	for (i = 0; i < n; i++)
+	while (i < n)
 	{
-
-		*(dest + 50) = src[i];
+		*(dest + i) = *(src + i);
+		i++;
 	}
-
-
-	return (dest + i);
-
+	return (dest);
 }
