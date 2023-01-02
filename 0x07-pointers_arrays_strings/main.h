@@ -9,6 +9,7 @@ extern char *_strstr(char *haystack, char *needle);
 extern int coincidence(char *a, char *b);
 extern void print_chessboard(char (*a)[8]);
 extern int _putchar(char c);
+extern void print_diagsums(int *a, int size);
 
 
 
