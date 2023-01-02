@@ -7,6 +7,8 @@ extern unsigned int _strspn(char *s, char *accept);
 extern char *_strpbrk(char *s, char *accept);
 extern char *_strstr(char *haystack, char *needle);
 extern int coincidence(char *a, char *b);
+extern void print_chessboard(char (*a)[8]);
+extern int _putchar(char c);
 
 
 
