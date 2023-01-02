@@ -3,7 +3,7 @@
 
 /**
 *
-*_memset - function that replace the value of b up to the nth value of the pointer
+**_memset - function that replace the value of b up to the nth value of the pointer
 *@s: pointer s
 *@b: char b to replace the values in *s
 *@n: nth value to which we replace the value stored in *s
