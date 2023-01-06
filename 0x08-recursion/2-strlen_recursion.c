@@ -1,13 +1,11 @@
 #include "main.h"
-
 /**
-*
-*_strlen_recursion - func that prints out len of str
-*@s: func arg
-*
-*Return: len of str
-*/
-
+ * _strlen_recursion - prints the string length.
+ * @s: source string
+ *
+ *
+ * Return: the string length.
+ */
 
 int _strlen_recursion(char *s)
 {
@@ -17,7 +15,7 @@ int _strlen_recursion(char *s)
 	if (*s == '\0')
 	{
 
-		return 0;
+		return (0);
 
 	}
 
