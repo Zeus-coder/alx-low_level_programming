@@ -1,49 +1,30 @@
 #include "main.h"
-
 /**
- * is_prime_number - return the sqrt of a natural number.
- * @n: natural number
+ * prime2 - Makes possible to evaluate from 1 to n
+ * @a: same number as n
+ * @b: number that iterates from 1 to n
  *
- *
- * Return: 1 if is prime otherwise 0.
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-int is_prime_manual();
-
+int prime2(int a, int b)
+{
+	if (a == b)
+		return (1);
+	else if (a % b == 0)
+		return (0);
+	return (prime2(a, b + 1));
+}
+/**
+ * is_prime_number - checks if a number is prime
+ * @n: Number Integer
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
 int is_prime_number(int n)
 {
 	if (n <= 1)
-	{
 		return (0);
-	}
-	else if (n == 2)
-	{
-		return (1);
-	}
-	else
-	{
-		return (is_prime_manual(n, 2));
-	}
-}
-/**
- * is_prime_manual - calculate if the number is prime.
- * @n: natural number
- * @i: counter or divisor of n.
- *
- * Return: 1 if is prime 0 otherwise.
- */
-int is_prime_manual(int n, int i)
-{
-	if (n % i == 0)
-	{
-		return (0);
-	}
-	else if (i == (n - 1) && n % i != 0)
-	{
-		return (1);
-	}
-	else
-	{
-		return (is_prime_manual(n, i + 1));
-	}
+	return (prime2(n, 2));
 }
