@@ -8,6 +8,8 @@
  * Return: sqrt 0 if sqrt is not natural.
  */
 
+int sqrt_manual(void);
+
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
