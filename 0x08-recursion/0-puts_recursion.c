@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-*
-*_puts_recursion - func that prints string to screen
-*@s: func arg
-*
-*Return: the string printed.
-*
-*/
+ * _puts_recursion - prints a string.
+ * @s: source string
+ *
+ *
+ * Return: the string printed.
+ */
+
 
 void _puts_recursion(char *s)
 {
